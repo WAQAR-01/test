@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Medium;
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./assest/fonts/Gilroy-Medium.ttf);
+}
+body{
+    background-image: url(./assets/images/bg_1.jpg.webp);
+    background-size: cover;
+}
+
+:root {
+    --primary-color: rgb(233, 174, 238); 
+    --secondry-color: #000000;
+    --para-color: #9E9DA2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li img{
+    width: 50px;
+    height: 50px;
+    
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.col{
+    background-color: var(--primary-color);
+    padding: 10px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+
+}
+.col li{
+    font-size: 22px;
+}
+.logo{
+    padding: 10px;
+}
+.btn{
+    background-color: crimson;
+    text-decoration: none;
+}
